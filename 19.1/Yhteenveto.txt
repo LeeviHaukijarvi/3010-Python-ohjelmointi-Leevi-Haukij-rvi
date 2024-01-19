@@ -1,0 +1,2 @@
+Tehtävät oli jokseenkin helppoja, ongelmia tuotti muuttujien nimeäminen, koska se oli erillaista kuin javassa.
+Yllätyin siitä että muuttujalle ei tarvinnut antaa ns. yksikköä kuten int tai float.

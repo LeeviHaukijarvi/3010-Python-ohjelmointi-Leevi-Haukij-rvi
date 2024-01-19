@@ -1,0 +1,1 @@
+Ajamalla komento python3 -V, se näyttää tietokoneessa asennetun pythonin version.
