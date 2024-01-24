@@ -1,0 +1,1 @@
+Tehtävät olivat helppoja, uutena asiana opin f-stringin käytön. Mielestäni se on erinomainen ominaiuus Pythonissa.
