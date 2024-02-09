@@ -1,0 +1,2 @@
+5 tehtävässä pieniä ongelmia kun ymmärsin että aliohjelma antaa kuukaudet tietenkin englanniksi ja olin siinä
+vaiheessa jo kirjoittanut kaikki muuttujat yms. suomeksi. Muuten ohjelma toimii mielestäni oikein.
