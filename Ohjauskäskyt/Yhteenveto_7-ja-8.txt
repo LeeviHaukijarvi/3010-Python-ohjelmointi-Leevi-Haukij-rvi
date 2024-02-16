@@ -1,0 +1,2 @@
+Tehtävissä opin miten pythonin for looppin toiminnasta ja siinä ei ollut ongelmia. Seiska tehtävässä aikaa itsellä meni tehtäväannon ymmärtämiseen.
+Kasi tehtävässä kipuilin vähäna aikaa sen kanssa jos käyttäjä ei syötä mitään. Muuten tehtävät onnistui mielestäni hyvin.
