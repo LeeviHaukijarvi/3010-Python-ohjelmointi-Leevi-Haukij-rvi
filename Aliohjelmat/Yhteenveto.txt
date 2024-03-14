@@ -1,0 +1,2 @@
+Aliohjelmien kanssa ei ollut ongelmia, tehtävä 10 lisäsin ensimmäiseen funkioon hieman syötteen tarkistusta.
+En täysin ymmärtänyt mitä siinä tehtävässä haettiin (oliko tossa kaikki tarvittavat asiat).
