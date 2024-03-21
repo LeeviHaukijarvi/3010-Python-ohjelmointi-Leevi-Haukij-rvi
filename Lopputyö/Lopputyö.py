@@ -1,4 +1,15 @@
-esineet = ['kivi', 'tikku', 'kukka']
+esineet = []
+
+def ota_esine(esine):
+    esineet.append(esine)
+    print(f'Otit esineen: {esine.capitalize()}')
+
+def pudota_esine(esine):
+    if esine in esineet:
+        esineet.remove(esine)
+        print(f'Pudotit esineen: {esine.capitalize()}')
+    else:
+        print(f'Sinulla ei ole mukana esinettä: {esine.capitalize()}')
 
 def tulosta_inventaario(esineet):
     if not esineet:
@@ -7,6 +18,7 @@ def tulosta_inventaario(esineet):
         print('Sinulla on mukana:')
         for i in esineet:
             print('- ' + i.capitalize())
+
 def alkutekstit():
     """
     Tulostetaan pelaajalle ohjeita tai
@@ -15,6 +27,8 @@ def alkutekstit():
     print('\nOlet synkän metsän laidalla.')
     print('Edessäsi on polku, joka vie syvemmälle metsään.')
     print('Mitä haluat tehdä?\n')
+
+
 
 def lopputekstit():
     """Tulostetaan nämä rivit pelin loppuessa."""
@@ -57,7 +71,7 @@ def peli():
             if verbi == 'katsele':
                 print('OK, katsellaan ympäriinsä')
             elif verbi == 'mukana':
-                tulosta_inventaario()
+                tulosta_inventaario(esineet)
 
             else:
                 print(f'En tunnista komentoa: {verbi}')
@@ -65,6 +79,10 @@ def peli():
             verbi = komento[0]
             objekti = komento[1]
             print(f'Kaksiosainen komento: "{verbi} {objekti}"')
+            if verbi == 'ota':
+                ota_esine(objekti)
+            elif verbi == 'pudota':
+                pudota_esine(objekti)
         else:
             print(f'Komento, jossa on {pituus} osaa:')
             for osa in komento:
