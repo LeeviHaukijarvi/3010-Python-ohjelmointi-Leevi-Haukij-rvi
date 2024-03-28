@@ -1,4 +1,18 @@
 esineet = ['kivi', 'tikku', 'kukka']
+sijainti = 'koti'
+
+def uusi_sijainti(uusi):
+    if uusi == 'sijainti':
+        print(f'Olet jo täällä ({sijainti})')
+    else:
+        sijanti = uusi
+
+
+
+def missa_pelaaja():
+    print(f'Olet nyt {sijainti}.')
+
+
 
 def tulosta_inventaario(esineet):
     if not esineet:
@@ -7,6 +21,7 @@ def tulosta_inventaario(esineet):
         print('Sinulla on mukana:')
         for i in esineet:
             print('- ' + i.capitalize())
+
 def alkutekstit():
     """
     Tulostetaan pelaajalle ohjeita tai
@@ -58,6 +73,8 @@ def peli():
                 print('OK, katsellaan ympäriinsä')
             elif verbi == 'mukana':
                 tulosta_inventaario()
+            elif verbi == 'missa':
+                missa_pelaaja()
 
             else:
                 print(f'En tunnista komentoa: {verbi}')
