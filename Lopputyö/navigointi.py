@@ -153,7 +153,7 @@ def jarppa_setä(tarina):
     paikan_esineet = ['valokuva-albumi', 'puutarhakirves', 'päiväkirja', 'nahkatakki', 'puskurit',
                     'kalastusreppu', 'kiikarit', 'metsästyskivääri']
 
-
+"""
 Täti: Pieni kodikas mökki metsän keskellä, jossa asuu ystävällinen vanha täti. Mökin ympärillä kohoavat korkeat puut ja talon sisällä on tunnelma kuin suoraan menneiden vuosikymmenten ajalta. Tädin keräämät esineet ja muistot menneisyydestä, kuten vanhat vinyylikokoelmat ja käsintehdyt villasukat, tuovat lämpimiä muistoja menneiltä ajoilta.
 Kirjasto: Hiljainen ja rauhallinen tila, joka on täynnä kirjahyllyjä ja lukunurkkauksia. Kirjaston seinillä on vanhoja tauluja ja seinäkello tikittää rauhallisesti. Kirjastossa voi uppoutua vanhojen kirjojen maailmaan ja löytää itsensä seikkailemasta menneisyyden tarinoiden parissa.
 Kebab: Värikäs ja vilkas ravintola, jossa tarjoillaan herkullisia kebab-annoksia ja muita välimerellisiä herkkuja. Ravintolan seinillä on eloisia värejä ja kiinnostavia kuvia, ja tunnelma on rento ja mukaansatempaava. Ruokailijat voivat nauttia ruoastaan istuimilla istuen ja seurata kiireistä menoa ympärillään.
@@ -174,3 +174,4 @@ Jarppa-setä: Karismaattinen vanha mies, joka asuu yksinäisellä maatilalla. Ja
 Hiekkatie: Hiekkainen polku, joka kulkee läpi metsien ja niittyjen. Hiekkatie on mutkainen ja seikkailunhaluisille sopiva reitti, joka tarjoaa mahdollisuuden tutkia luonnon monimuotoisuutta ja nauttia ulkoilmasta. Polulla voi kohdata erilaisia eläimiä ja kasveja, ja sen varrella voi löytää mielenkiintoisia kohteita tutkittavaksi.
 Mummola: Viehättävä maalaistalo, jossa asuu ystävällinen isoäiti tai isoäiti. Mummolan ympärillä on vehreä puutarha ja kukkivia pensaita, ja talo itsessään on täynnä lämpöä ja rakkautta. Mummolassa vieraileminen on kuin paluu lapsuuden muistoihin ja menneiden kesien tunnelmaan, ja siellä voi rentoutua ja nauttia hyvästä seurasta ja herkullisista herkuista.
 Valintatalo: Paikallinen ruokakauppa, jossa pelaaja voi käydä ostoksilla ja löytää tarvitsemiaan tavaroita ja ruokaa matkansa varrelle. Valintatalo tarjoaa laajan valikoiman erilaisia tuotteita ja palveluita, ja siellä voi tavata tuttuja ja vaihtaa kuulumisia. Kaupassa vallitsee tuttu ja turvallinen ilmapiiri, joka houkuttelee asiakkaita palaamaan yhä uudelleen.
+"""

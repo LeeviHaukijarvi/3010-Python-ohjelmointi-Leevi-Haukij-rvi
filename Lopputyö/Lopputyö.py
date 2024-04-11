@@ -173,8 +173,14 @@ def missa_pelaaja():
 
 
 def ota_esine(esine):
+    if esine in esineet:
+        print(f'Sinulla on jo mukana esine: {esine.capitalize()}')
+        return
     if esine in paikan_esineet:
         global pisteet
+        if len(esineet) >= 5:
+            print('Sinulla on jo liikaa esineitä mukana.')
+            return
         esineet.append(esine)
         paikan_esineet.remove(esine)
         print(f'Otit esineen: {esine.capitalize()}')
